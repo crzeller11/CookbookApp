@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cookbook</string>
+    <string name="letsCookButton">Lets Cook!</string>
+    <string name="dietRestriction">Diet Restrictions</string>
+    <string name="servings">Number of Servings</string>
+    <string name="prepTime">Preparation Time</string>
+    <string name="searchButton">Search</string>
+    <string name="thumbnail">Thumbnail image of recipe</string>
+    <string name="recipeTitle">Recipe Title</string>
+    <string name="recipeServings">Recipe Servings</string>
+    <string name="recipeTime">Recipe Time</string>
+</resources>

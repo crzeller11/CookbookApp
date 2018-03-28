@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_food_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/citrus"
+        />
+
+    <TextView
+        android:id="@+id/dietRestrictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/servings"
+        android:layout_marginTop="103dp"
+        android:text="@string/dietRestriction"
+        android:textSize="20sp"
+        android:background="@color/orange"
+        android:fontFamily="@font/main"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/servings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_below="@id/dietRestrictions"
+        android:background="@color/orange"
+        android:text="@string/servings"
+        android:fontFamily="@font/main"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/prepTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        android:layout_below="@id/servings"
+        android:text="@string/prepTime"
+        android:background="@color/orange"
+        android:fontFamily="@font/main"
+        android:textColor="@color/black"/>
+
+
+    <Spinner
+        android:id="@+id/dietRestrictionSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/servingSpinner"
+        android:layout_alignTop="@+id/dietRestrictions"
+        android:spinnerMode="dropdown"
+        />
+
+    <Spinner
+        android:id="@+id/servingSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/servings"
+        android:layout_marginStart="14dp"
+        android:layout_toEndOf="@+id/servings"
+        android:spinnerMode="dropdown"/>
+
+    <Spinner
+        android:id="@+id/prepTimeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/servingSpinner"
+        android:layout_alignTop="@+id/prepTime"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/prepTime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:onClick="searchQuery"
+        android:text="@string/searchButton"
+        android:fontFamily="@font/main"
+        android:textColor="@color/white"
+        android:background="@color/citrus"/>
+</RelativeLayout>

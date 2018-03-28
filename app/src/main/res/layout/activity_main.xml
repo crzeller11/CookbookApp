@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chloerainezeller.project2.MainActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/background_food_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:src="@drawable/spices"
+        />
+
+    <Button
+        android:id="@+id/letsCookButton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/mainBtnColor"
+        android:fontFamily="@font/main"
+        android:textSize="20dp"
+        android:text="Let\'s Cook!"
+        android:textColor="@color/white" />
+</RelativeLayout>
