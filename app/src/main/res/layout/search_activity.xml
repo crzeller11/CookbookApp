@@ -57,6 +57,7 @@
         android:layout_alignStart="@+id/servingSpinner"
         android:layout_alignTop="@+id/dietRestrictions"
         android:spinnerMode="dropdown"
+        android:background="@color/orange"
         />
 
     <Spinner
@@ -66,7 +67,8 @@
         android:layout_alignTop="@+id/servings"
         android:layout_marginStart="14dp"
         android:layout_toEndOf="@+id/servings"
-        android:spinnerMode="dropdown"/>
+        android:spinnerMode="dropdown"
+        android:background="@color/orange"/>
 
     <Spinner
         android:id="@+id/prepTimeSpinner"
@@ -74,7 +76,8 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/servingSpinner"
         android:layout_alignTop="@+id/prepTime"
-        android:spinnerMode="dropdown"/>
+        android:spinnerMode="dropdown"
+        android:background="@color/orange"/>
 
     <Button
         android:id="@+id/searchButton"

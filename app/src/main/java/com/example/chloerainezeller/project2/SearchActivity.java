@@ -100,6 +100,7 @@ public class SearchActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+
     public ArrayList<String> getUniquePrepTimes(ArrayList<Recipe> recipeList) {
         ArrayList<String> prepOptions = new ArrayList<>();
         // make an arrayList of all the unique prepTime options in the JSON file
