@@ -35,7 +35,8 @@
             android:layout_marginRight="8dp"
             android:maxLines="3"
             android:text="@string/recipeTitle"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textColor="@color/citrus"/>
 
         <TextView
             android:id="@+id/recipeServings"
@@ -46,7 +47,8 @@
             android:layout_marginRight="8dp"
             android:layout_marginTop="2dp"
             android:text="@string/servings"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textColor="@color/orange"/>
 
         <TextView
             android:id="@+id/recipePrepTime"
@@ -56,7 +58,8 @@
             android:layout_alignTop="@id/recipeServings"
             android:layout_toEndOf="@id/recipeServings"
             android:textSize="16sp"
-            android:text="@string/recipeTime" />
+            android:text="@string/recipeTime"
+            android:textColor="@color/orange"/>
 
         <ImageButton
             android:id="@+id/notificationButton"

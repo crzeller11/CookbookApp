@@ -22,7 +22,6 @@ public class ResultActivity extends AppCompatActivity {
         setContentView(R.layout.search_result_activity);
         myContext = this;
 
-        System.out.println("REACHED RESULT ACTIVITY");
 
         Bundle extra = getIntent().getBundleExtra("searchResults");
         final ArrayList<Recipe> searchResults = (ArrayList<Recipe>) extra.getSerializable("searchResults");
